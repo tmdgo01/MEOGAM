@@ -8,7 +8,8 @@
 | 4    | 스텝퍼/펄스형 팬 모터     | 1개     | 샴푸 흔들기용     |
 
 
-Raspberry Pin Settings
+## Raspberry Pin Settings
+
 [31] GPIO 6   → 스텝퍼 IN1  
 [33] GPIO 13  → 스텝퍼 IN2  
 [35] GPIO 19  → 스텝퍼 IN3  
