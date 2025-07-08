@@ -10,16 +10,16 @@
 
 ## Raspberry Pin Settings
 
-//[31] GPIO 6   → 스텝퍼 IN1  
-//[33] GPIO 13  → 스텝퍼 IN2  
-//[35] GPIO 19  → 스텝퍼 IN3  
-//[37] GPIO 26  → 스텝퍼 IN4  
+<!-- [31] GPIO 6   → 스텝퍼 IN1
+[33] GPIO 13  → 스텝퍼 IN2  
+[35] GPIO 19  → 스텝퍼 IN3  
+[37] GPIO 26  → 스텝퍼 IN4  
 
-//[40] GPIO 21  → 서보 모터 PWM  
+[40] GPIO 21  → 서보 모터 PWM  
 
 [11] GPIO 17  → 릴레이 IN1 (펌프)  
 [13] GPIO 27  → 릴레이 IN2 (펌프)  
 
 [38] GPIO 20  → 팬 모터 DIR  
-[36] GPIO 16  → 팬 모터 STEP
+[36] GPIO 16  → 팬 모터 STEP --!>
 
