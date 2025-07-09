@@ -12,20 +12,20 @@ Flask와 Raspberry Pi를 이용하여 앱-하드웨어 제작
 ![MEOGAM](https://github.com/user-attachments/assets/21651fcf-cf58-4c41-b203-98f6103e7011)
 
 ## Raspberry Pin Settings
-stepper motor
+### stepper motor
 [31] GPIO 6  
 [33] GPIO 13   
 [35] GPIO 19   
 [37] GPIO 26  
 
-Servo motor PWM 
+### Servo motor PWM 
 [40] GPIO 21  
 
-WaterPump
+### WaterPump
 [11] GPIO 17  
 [13] GPIO 27   
 
-FanMotor(DC Motor)
+### FanMotor(DC Motor)
 [38] GPIO 20   
 [36] GPIO 16 
 
