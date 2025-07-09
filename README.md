@@ -1,19 +1,15 @@
-# 장애인이나 임산부 등 혼자 머리를 감기 힘든 사람을 위한 아이디어
+# 혼자 머리를 감기 힘든 사람을 위한 머리 세척 기계
 Flask와 Raspberry Pi를 이용하여 앱-하드웨어 제작
 
 | 번호   | 액추에이터 종류         | 개수     | 설명          |
 | ---- | ---------------- | ------ | ----------- |
-| 1    | 스텝퍼 모터 (Stepper) | 1개     | 머리 감기,     |
-| 2    | 서보 모터 (Servo)    | 1개     | 샴푸 기울이기   |
-| 3    | DC 모터, 워터 펌프         | 1개 씩    | 물 공급       |
-| 4    | 스텝퍼/펄스형 팬 모터     | 1개     | 샴푸 흔들기     |
-| 5    |     | 1개     | 샴푸 흔들기     |
+| 1    | Stepper Motor | 1    | 머리 감기     |
+| 2    | Servo Motor    | 1    | 샴푸 기울이기   |
+| 3    | DC Motor        | 1  | 샴푸/물 혼합     |
+| 4    | WaterPump         | 1   | 물 공급       |
+| 5    | SZH-MDBL-002(Motor driver)    | 1    | WaterPump, Dc Motor     |
 
-| 번호   | 액추에이터 종류         | 개수     | 설명          |
-| ---- | ---------------- | ------ | ----------- |
-| 3    | 워터 펌프         | 1개 씩    | 물 공급       |
-| 3    | motor driver(SZH-MDBL-002)| 1   | DC motor, Water Pump     |
-
+![MEOGAM](https://github.com/user-attachments/assets/21651fcf-cf58-4c41-b203-98f6103e7011)
 
 ## Raspberry Pin Settings
 
@@ -29,4 +25,7 @@ Flask와 Raspberry Pi를 이용하여 앱-하드웨어 제작
 
 [38] GPIO 20  → 팬 모터 DIR  
 [36] GPIO 16  → 팬 모터 STEP --!>
+
+![그림1](https://github.com/user-attachments/assets/412a64bb-d6ea-4341-b1d8-84915bfdd43e)
+
 
